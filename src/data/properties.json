@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Loft in Downtown",
+    "description": "Experience city life from this newly renovated, spacious loft featuring floor-to-ceiling windows and stunning skyline views.",
+    "location": "New York, USA",
+    "price": 250,
+    "rating": 4.9,
+    "reviews": 128,
+    "amenities": ["Wifi", "Kitchen", "Self check-in", "Air conditioning", "Elevator"],
+    "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Cozy Cabin in the Woods",
+    "description": "Escape the city to this peaceful rustic cabin. Enjoy your morning coffee on the deck surrounded by pine trees and birdsong.",
+    "location": "Aspen, USA",
+    "price": 145,
+    "rating": 4.88,
+    "reviews": 92,
+    "amenities": ["Fireplace", "Kitchen", "Free parking", "Pet friendly", "Heating"],
+    "imageUrl": "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Luxury Beachfront Villa",
+    "description": "Wake up to the sound of waves in this spectacular 4-bedroom villa with private pool, direct beach access, and chef’s kitchen.",
+    "location": "Bali, Indonesia",
+    "price": 420,
+    "rating": 5.0,
+    "reviews": 45,
+    "amenities": ["Pool", "Beach access", "Wifi", "Kitchen", "Air conditioning", "Daily housekeeping"],
+    "imageUrl": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Historic Apartment near Eiffel Tower",
+    "description": "Charming 19th-century apartment with classic Parisian moldings, high ceilings, and a balcony with a view of the Eiffel Tower.",
+    "location": "Paris, France",
+    "price": 185,
+    "rating": 4.95,
+    "reviews": 210,
+    "amenities": ["Balcony", "Wifi", "Kitchen", "Washer", "Hair dryer"],
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Desert Oasis Geodesic Dome",
+    "description": "Sleep under the stars in this unique off-grid dome surrounded by desert landscape. Perfect for nature lovers.",
+    "location": "Joshua Tree, USA",
+    "price": 195,
+    "rating": 4.75,
+    "reviews": 315,
+    "amenities": ["Stargazing window", "Fire pit", "Free parking", "Kitchenette"],
+    "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Minimalist Treehouse Retreat",
+    "description": "Reconnect with nature in this award-winning architect-designed treehouse suspended between massive redwood trees.",
+    "location": "Portland, USA",
+    "price": 280,
+    "rating": 4.98,
+    "reviews": 84,
+    "amenities": ["Forest views", "Wifi", "Kitchen", "Hot water", "Essentials"],
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Studio with Panoramic Ocean Views",
+    "description": "Bright, modern studio right on the cliff edge. Spot dolphins from your bed in this romantic coastal getaway.",
+    "location": "Sydney, Australia",
+    "price": 150,
+    "rating": 4.82,
+    "reviews": 150,
+    "amenities": ["Ocean view", "Wifi", "Kitchen", "TV", "Air conditioning"],
+    "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Traditional Ryokan Stay",
+    "description": "Immerse yourself in Japanese culture in this beautifully preserved traditional inn with tatami mats and a private onsen (hot spring).",
+    "location": "Kyoto, Japan",
+    "price": 310,
+    "rating": 4.99,
+    "reviews": 38,
+    "amenities": ["Private Onsen", "Breakfast included", "Wifi", "Air conditioning", "Luggage dropoff"],
+    "imageUrl": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  }
+]
