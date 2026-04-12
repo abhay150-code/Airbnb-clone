@@ -1,0 +1,161 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: var(--bg-main);
+  border-bottom: 1px solid var(--border-light);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.brand-logo {
+  stroke: var(--primary);
+  fill: none;
+}
+
+.search-bar {
+  display: none;
+  align-items: center;
+  border: 1px solid var(--border-light);
+  border-radius: 40px;
+  padding: 8px 8px 8px 16px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+
+.search-bar:hover {
+  box-shadow: var(--shadow-md);
+}
+
+@media (min-width: 768px) {
+  .search-bar {
+    display: flex;
+  }
+}
+
+.search-btn {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 12px;
+  color: var(--text-main);
+}
+
+.search-btn.text-light {
+  color: var(--text-light);
+  font-weight: 400;
+}
+
+.navbar-search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 16px;
+  font-size: 14px;
+  color: var(--text-main);
+  width: 200px;
+}
+
+.navbar-search-input::placeholder {
+  color: var(--text-light);
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--border-light);
+}
+
+.search-icon-wrapper {
+  background-color: var(--primary);
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.host-link {
+  display: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.host-link:hover {
+  background-color: var(--bg-off);
+}
+
+@media (min-width: 768px) {
+  .host-link {
+    display: block;
+  }
+}
+
+.icon-btn {
+  padding: 10px;
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.2s ease;
+}
+
+.icon-btn {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .icon-btn {
+    display: block;
+  }
+}
+
+.profile-menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--border-light);
+  padding: 6px 6px 6px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.profile-menu:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.user-avatar {
+  background-color: var(--text-light);
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
