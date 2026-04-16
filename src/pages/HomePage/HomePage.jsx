@@ -47,3 +47,4 @@ const HomePage = ({ navigate, searchQuery = '' }) => {
 };
 
 export default HomePage;
+\n// style: improve Navbar search bar aesthetics\n
