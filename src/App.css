@@ -8,3 +8,5 @@ main {
   flex-grow: 1;
   padding-top: 80px; /* Offset for fixed navbar */
 }
+
+/* fix: resolve container padding issues */
