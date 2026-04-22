@@ -1,27 +1,4 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <h1>Hello React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </div>
-  )
-}
-
-export default App
-
-// refactor: restructure root components
-
-// style: refine focus states for interactive elements
-
-// feat: implement lazy loading for routes
-
-// refactor: optimize component re-renders
+import React from 'react';
+import { Navbar } from './components/Navbar';
+function App() { return <div><Navbar /></div>; }
+export default App;
