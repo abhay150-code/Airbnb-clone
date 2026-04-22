@@ -21,3 +21,5 @@ export default App
 // refactor: restructure root components
 
 // style: refine focus states for interactive elements
+
+// feat: implement lazy loading for routes
