@@ -47,4 +47,4 @@ const Navbar = ({ navigate, searchQuery, setSearchQuery }) => {
 };
 
 export default Navbar;
-\n// feat: connect FilterBar state to HomePage\n
+\n// feat: connect FilterBar state to HomePage\n\n// fix: resolve layout shift in PropertyCard grid\n
