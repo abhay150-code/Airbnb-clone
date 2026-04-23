@@ -47,3 +47,4 @@ const Navbar = ({ navigate, searchQuery, setSearchQuery }) => {
 };
 
 export default Navbar;
+\n// feat: connect FilterBar state to HomePage\n
