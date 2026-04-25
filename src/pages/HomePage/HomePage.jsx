@@ -47,4 +47,9 @@ const HomePage = ({ navigate, searchQuery = '' }) => {
 };
 
 export default HomePage;
-\n// style: improve Navbar search bar aesthetics\n\n// style: refine HomePage property grid for desktop\n\n// refactor: extract Navbar logic and cleanup\n
+
+// style: improve Navbar search bar aesthetics
+
+// style: refine HomePage property grid for desktop
+
+// refactor: extract Navbar logic and cleanup
